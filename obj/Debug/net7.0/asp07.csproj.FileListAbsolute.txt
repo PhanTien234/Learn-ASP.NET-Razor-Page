@@ -24,3 +24,5 @@
 /home/tien/Desktop/asp07/obj/Debug/net7.0/asp07.pdb
 /home/tien/Desktop/asp07/obj/Debug/net7.0/asp07.genruntimeconfig.cache
 /home/tien/Desktop/asp07/obj/Debug/net7.0/ref/asp07.dll
+/home/tien/Desktop/asp07/obj/Debug/net7.0/asp07.RazorAssemblyInfo.cache
+/home/tien/Desktop/asp07/obj/Debug/net7.0/asp07.RazorAssemblyInfo.cs

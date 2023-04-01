@@ -4,10 +4,8 @@ namespace asp07
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            /*
-                Phương thức ConfigureServices cho phép truy cập đến các dịch vụ, dependency được Inject vào
-                Webhost. Hoặc bạn cũng có thể đưa thêm các dependency tại đây.
-            */
+            //Đăng ký các dịch vụ liên quan đến Razor, Razor Page
+            services.AddRazorPages();
 
         }
 
@@ -23,6 +21,8 @@ namespace asp07
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapRazorPages(); // khi chúng ta thiết lập maprazorpage, thì nó tìm trên toàn bộ cái mã nguồn những trang razor page cshtml, và nó sử dụng những trang này như là một endpoint.
+                // FirstPage.cshtml, and set up URL= /FirstPage.
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
