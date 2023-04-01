@@ -4,10 +4,20 @@
 <p>Learn Coding ASP.NET Core <strong>@System.DateTime.Now</strong></p>
 
 @{
+    // Những cấu trúc lệnh của C# ví dụ như, Vòng lặp for, lệnh if-else thì chúng ta có thể viết trực tiếp vào đây luôn. 
     var a = 2;
     int b = 3;
+
+    int thenumberloop = 5;
 
     <p>Square of a @a is @Math.Sqrt(a)</p>
 }
 
 <p>The sum of @a and @b is @(a+b)</p>
+
+<ol>
+    @for(int i=0; i<thenumberloop; i++){
+        // chúng ta có thể viết ngay code C# vào đây hoặc có thể nhúng thẻ html vào:
+        <li>Index @i</li>
+    }
+</ol>
