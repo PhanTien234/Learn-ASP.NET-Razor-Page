@@ -1,3 +1,11 @@
-@page
+@page 
+@* @page là Chỉ thị để thiết lập trang Razỏ Page. *@
 <h1 style="color: green">That is the first Razor Page</h1>
 <p>Learn Coding ASP.NET Core <strong>@System.DateTime.Now</strong></p>
+
+@{
+    var a = 2;
+    int b = 3;
+
+    <p>Square of a @a is @Math.Sqrt(a)</p>
+}

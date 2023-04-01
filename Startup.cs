@@ -34,4 +34,11 @@ namespace asp07
 /*
     Razor page(.cshtml) = html + C#
     Engine Razor ->compile ->Response
+    -@page
+    -Để xuất ra 1 giá trị của biến ở file .cshtml thì ta dùng @tenbien, hoặc @biểuthức, hoặc gọi một phương thức nào đó của C# (@phươngthuwcs)
+    - Trong file cshtml chúng ta có thể nhúng file c# vào bằng cách:
+    @{
+        //Vietcode C#
+        Nếu chúng ta mở thẻ <HTML></HTML> thì có nghĩa là chúng ta đang nhúng code html vào C#
+    }
 */
