@@ -1,6 +1,6 @@
 @page "/trang-dau-tien/{thenumberloop:int?}"
 @* @page là Chỉ thị để thiết lập trang Razỏ Page. *@
-<h1 style="color: green">That is the first Razor Page</h1>
+<h1 style="color: green">@this.title</h1>
 <p>Learn Coding ASP.NET Core <strong>@System.DateTime.Now</strong></p>
 
 @{
@@ -15,6 +15,14 @@
     <p>Square of a @a is @Math.Sqrt(a)</p>
 }
 
+@functions{
+    //Nếu muốn thì chúng ta có thể mở ra nhiều khối function
+    string title{set; get;} = "Day la Trang Razor cua Phan Minh Tien";
+    string welcome(string name){
+        return $"Chao mung {name} den voi Website";
+    }
+}
+
 <p>The sum of @a and @b is @(a+b)</p>
 
 <p>The number of loop is @thenumberloop</p>
@@ -25,3 +33,6 @@
         <li>Index @i</li>
     }
 </ol>
+
+
+<p>@this.welcome("Nguyen Van A")</p>
