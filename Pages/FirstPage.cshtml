@@ -1,9 +1,7 @@
 @page "/trang-dau-tien/{thenumberloop:int?}"
 @* @page là Chỉ thị để thiết lập trang Razỏ Page. *@
 <h1 style="color: green">@this.title</h1>
-@{
-    ViewData["mydata"] = "Xuanthulap.net 2023";
-}
+
 <h2>@ViewData["mydata"]</h2>
 <p>Learn Coding ASP.NET Core <strong>@System.DateTime.Now</strong></p>
 
@@ -22,6 +20,15 @@
 @functions{
     //Nếu muốn thì chúng ta có thể mở ra nhiều khối function
     string title{set; get;} = "Day la Trang Razor cua Phan Minh Tien";
+
+    //OnGet, OnGetAbc, OnGetXyz,..
+    //OnPost(), OnPostAbc(),...
+    //Những phương thức như trên gọi là Handler
+    public void OnGet(){
+        //Phương thưc OnGet được gọi khi truy vấn đến trang địa chỉ mặc định với phương thức GET
+        Console.WriteLine("Truy van GET");
+        ViewData["mydata"] = "Xuanthulap.net 2023";
+    }
     string welcome(string name){
         return $"Chao mung {name} den voi Website";
     }
