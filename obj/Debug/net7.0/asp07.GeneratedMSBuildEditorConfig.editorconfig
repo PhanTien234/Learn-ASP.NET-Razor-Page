@@ -19,3 +19,11 @@ build_property._RazorSourceGeneratorDebug =
 [/home/tien/Desktop/asp07/Pages/FirstPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmlyc3RQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
+
+[/home/tien/Desktop/asp07/Pages/SecondPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2Vjb25kUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/tien/Desktop/asp07/Pages/ThirdPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGhpcmRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

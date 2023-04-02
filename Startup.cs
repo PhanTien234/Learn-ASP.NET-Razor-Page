@@ -22,7 +22,7 @@ namespace asp07
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages(); // khi chúng ta thiết lập maprazorpage, thì nó tìm trên toàn bộ cái mã nguồn những trang razor page cshtml, và nó sử dụng những trang này như là một endpoint.
-                // FirstPage.cshtml, and set up URL= /FirstPage.
+                // FirstPage.cshtml, and set up URL= /FirstPage.  /SecondPage  /ThirdPage
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
@@ -40,5 +40,6 @@ namespace asp07
     @{
         //Vietcode C#
         Nếu chúng ta mở thẻ <HTML></HTML> thì có nghĩa là chúng ta đang nhúng code html vào C#
+        Thì như vậy mặc định thì con endpoint Routing được tạo theo endpoint của địa chỉ mặc định là tên của các file Razor
     }
 */
