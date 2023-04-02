@@ -8,7 +8,10 @@ namespace asp07
             // services.AddRazorPages();
             //Để thay đổi trang chỉ mặc định là Pages thành địa chỉ khác ta dùng lệnh như sau:
             services.AddRazorPages().AddRazorPagesOptions(options => {
-                options.RootDirectory = "/Content";
+                options.RootDirectory = "/Pages";
+                //Truy cập vào trang First Page với một URL mới mà ta tự đặt
+                options.Conventions.AddPageRoute("/FirstPage", "/trang-dau-tien.html");
+                options.Conventions.AddPageRoute("/SecondPage", "/test2");
             });
 
 
@@ -39,7 +42,7 @@ namespace asp07
 /*
     Razor page(.cshtml) = html + C#
     Engine Razor ->compile ->Response
-    -@page
+    -@page "url"
     -Để xuất ra 1 giá trị của biến ở file .cshtml thì ta dùng @tenbien, hoặc @biểuthức, hoặc gọi một phương thức nào đó của C# (@phươngthuwcs)
     - Trong file cshtml chúng ta có thể nhúng file c# vào bằng cách:
     @{
@@ -47,4 +50,6 @@ namespace asp07
         Nếu chúng ta mở thẻ <HTML></HTML> thì có nghĩa là chúng ta đang nhúng code html vào C#
         Thì như vậy mặc định thì con endpoint Routing được tạo theo endpoint của địa chỉ mặc định là tên của các file Razor
     }
+    chúng ta sử dụng cấu hình đó để viết lại địa chỉ URL truy cập đến Razor Page thì chúng ta gọi là:
+    Rewrite URL 
 */
