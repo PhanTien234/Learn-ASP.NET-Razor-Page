@@ -54,4 +54,8 @@ namespace asp07
     }
     chúng ta sử dụng cấu hình đó để viết lại địa chỉ URL truy cập đến Razor Page thì chúng ta gọi là:
     Rewrite URL 
+
+    để hỗ trợ phát sinh ra trang html thì nó dùng:
+    Tag Helper -> cú pháp để phát sinh HTML
+    @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers dùng để nạp các trang helper vào razor page
 */
