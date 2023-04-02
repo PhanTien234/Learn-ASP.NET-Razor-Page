@@ -31,6 +31,8 @@ namespace asp07
             {
                 endpoints.MapRazorPages(); // khi chúng ta thiết lập maprazorpage, thì nó tìm trên toàn bộ cái mã nguồn những trang razor page cshtml, và nó sử dụng những trang này như là một endpoint.
                 // FirstPage.cshtml, and set up URL= /FirstPage.  /SecondPage  /ThirdPage
+                //Thì lúc này endpoint middleware sẽ tạo ra các địa chỉ các điểm endpoint truy cập đến tên thư mục 
+                //Dichvu/Dichvu1
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
