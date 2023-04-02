@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/tien/Desktop/asp07
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/tien/Desktop/asp07/Areas/Product/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHVjdC9QYWdlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/tien/Desktop/asp07/Areas/Product/Pages/Sanphammoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvUHJvZHVjdC9QYWdlcy9TYW5waGFtbW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/tien/Desktop/asp07/Areas/User/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9QYWdlcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/tien/Desktop/asp07/Areas/User/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvVXNlci9QYWdlcy9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/tien/Desktop/asp07/Pages/Dichvu/Dichvu1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGljaHZ1L0RpY2h2dTEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

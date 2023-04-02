@@ -18645,6 +18645,16 @@
   "RootNamespace": "asp07",
   "Documents": [
     {
+      "FilePath": "/home/tien/Desktop/asp07/Areas/User/Pages/Index.cshtml",
+      "TargetPath": "Areas\\User\\Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tien/Desktop/asp07/Areas/Product/Pages/Sanphammoi.cshtml",
+      "TargetPath": "Areas\\Product\\Pages\\Sanphammoi.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tien/Desktop/asp07/Pages/Dichvu/Dichvu1.cshtml",
       "TargetPath": "Pages\\Dichvu\\Dichvu1.cshtml",
       "FileKind": "mvc"
@@ -18652,6 +18662,11 @@
     {
       "FilePath": "/home/tien/Desktop/asp07/Pages/Dichvu/Dichvu2.cshtml",
       "TargetPath": "Pages\\Dichvu\\Dichvu2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tien/Desktop/asp07/Areas/User/Pages/Login.cshtml",
+      "TargetPath": "Areas\\User\\Pages\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18672,6 +18687,11 @@
     {
       "FilePath": "/home/tien/Desktop/asp07/Pages/Dichvu/Index.cshtml",
       "TargetPath": "Pages\\Dichvu\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/tien/Desktop/asp07/Areas/Product/Pages/Index.cshtml",
+      "TargetPath": "Areas\\Product\\Pages\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
