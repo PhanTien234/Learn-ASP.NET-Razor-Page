@@ -13,7 +13,10 @@ namespace asp07
                 options.Conventions.AddPageRoute("/FirstPage", "/trang-dau-tien.html");
                 options.Conventions.AddPageRoute("/SecondPage", "/test2");
             });
-
+            //Để thiết lập đường dẫn URL thành chữ thường hết thì chúng ta sẽ cấu hình nhuư sau:
+            services.Configure<RouteOptions>(routeOptions => {
+                  routeOptions.LowercaseUrls = true;
+            });
 
         }
 
