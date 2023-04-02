@@ -61,4 +61,6 @@ namespace asp07
     để hỗ trợ phát sinh ra trang html thì nó dùng:
     Tag Helper -> cú pháp để phát sinh HTML
     @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers dùng để nạp các trang helper vào razor page
+
+    ViewData["mydata] caí đối tượng này là cái đối tượng chứa các dữ liệu để truyền giữa các phương thức được sử dụng ở trong .cshtml, những dữ liệu đó được lưu trữ vào ViewData bằng một cái key
 */

@@ -1,6 +1,10 @@
 @page "/trang-dau-tien/{thenumberloop:int?}"
 @* @page là Chỉ thị để thiết lập trang Razỏ Page. *@
 <h1 style="color: green">@this.title</h1>
+@{
+    ViewData["mydata"] = "Xuanthulap.net 2023";
+}
+<h2>@ViewData["mydata"]</h2>
 <p>Learn Coding ASP.NET Core <strong>@System.DateTime.Now</strong></p>
 
 @{
