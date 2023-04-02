@@ -5,7 +5,12 @@ namespace asp07
         public void ConfigureServices(IServiceCollection services)
         {
             //Đăng ký các dịch vụ liên quan đến Razor, Razor Page
-            services.AddRazorPages();
+            // services.AddRazorPages();
+            //Để thay đổi trang chỉ mặc định là Pages thành địa chỉ khác ta dùng lệnh như sau:
+            services.AddRazorPages().AddRazorPagesOptions(options => {
+                options.RootDirectory = "/Content";
+            });
+
 
         }
 
