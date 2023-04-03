@@ -1,6 +1,12 @@
 @page "/trang-dau-tien/{thenumberloop:int?}"
 @* @page là Chỉ thị để thiết lập trang Razỏ Page. *@
 @model FirstPageModel
+
+@* Mở rộng khối lệnh layout *@
+
+@{
+    Layout = "_MyLayout";
+}
 <h1 style="color: green">@Model.title</h1>
 
 <h2>@ViewData["mydata"]</h2>

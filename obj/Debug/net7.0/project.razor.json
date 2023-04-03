@@ -18670,6 +18670,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tien/Desktop/asp07/Pages/Shared/_MyLayout.cshtml",
+      "TargetPath": "Pages\\Shared\\_MyLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tien/Desktop/asp07/Pages/Dichvu/Dichvu2.cshtml",
       "TargetPath": "Pages\\Dichvu\\Dichvu2.cshtml",
       "FileKind": "mvc"
