@@ -18700,6 +18700,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tien/Desktop/asp07/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tien/Desktop/asp07/Pages/Dichvu/Dichvu1.cshtml",
       "TargetPath": "Pages\\Dichvu\\Dichvu1.cshtml",
       "FileKind": "mvc"
