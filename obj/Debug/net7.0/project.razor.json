@@ -18655,6 +18655,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/tien/Desktop/asp07/Pages/_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/tien/Desktop/asp07/Areas/Product/Pages/Sanphammoi.cshtml",
       "TargetPath": "Areas\\Product\\Pages\\Sanphammoi.cshtml",
       "FileKind": "mvc"
